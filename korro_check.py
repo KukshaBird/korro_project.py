@@ -48,7 +48,7 @@ def chek_korro():
 
     #Check result for 6
 
-    if abs((obig_a - pdv_and_zbir) * 0.2 - pdv_a) <= 0.0049:#Allow difference up to 0.5 cent 
+    if abs((obig_a - pdv_and_zbir) * 0.2 - pdv_a) <= 0.0049: #Allow difference up to 0.5 cent
 
         CHECK_R_6["text"], CHECK_R_6["fg"] = 'Пройдено', 'black'
 
@@ -58,7 +58,7 @@ def chek_korro():
 
     #Check result for 7
 
-    if abs((obig_a - zbir_a) * 0.05 - zbir_a) <= 0.0049:#Allow difference up to 0.5 cent 
+    if abs((obig_a - zbir_a) * 0.05 - zbir_a) <= 0.0049: #Allow difference up to 0.5 cent
 
         CHECK_R_7["text"], CHECK_R_7["fg"] = 'Пройдено', 'black'
 
